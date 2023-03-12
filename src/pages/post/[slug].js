@@ -12,7 +12,6 @@ import React from "react";
 import { getPostDetails, getPosts } from "services";
 
 const PostDetails = ({ post }) => {
-  console.log(post);
   return (
     <div className="bg-slate-900 container mx-auto px-10 mb-8">
       <Head>
